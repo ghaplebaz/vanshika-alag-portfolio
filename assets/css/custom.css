@@ -1,0 +1,24 @@
+/* Minimal Custom Styling - Preserves Original Meelo Structure & Design */
+
+/* Ensure portraits fit cleanly within the Meelo arch and circle */
+.hero-image {
+  object-fit: cover !important;
+  object-position: center 15% !important;
+}
+
+.about-image {
+  object-fit: cover !important;
+  object-position: center center !important;
+  aspect-ratio: 1 / 1 !important;
+}
+
+/* Ensure clean logo rendering */
+.logo {
+  height: 26px !important;
+  width: auto !important;
+}
+
+/* Timeline bullet points formatting */
+.timeline-content p {
+  line-height: 1.6;
+}
