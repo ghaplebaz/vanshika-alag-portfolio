@@ -1,5 +1,18 @@
 /* Minimal Custom Styling - Preserves Original Meelo Structure & Design */
 
+/* Fix: cursor element causes black bar when Webflow JS doesn't initialize */
+.cursor-wrapper,
+.cursor,
+.cursor-text-view {
+  display: none !important;
+}
+
+/* Fix: prevent any overflow causing horizontal scroll */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+}
+
 /* Ensure portraits fit cleanly within the Meelo arch and circle */
 .hero-image {
   object-fit: cover !important;
